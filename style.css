@@ -50,7 +50,7 @@ p{
     font-weight: bold;
 }
 
-.trybe-word{
+.trybe-word{https://github.com/leovcampos/leovcampos.github.io
     color: rgb(52, 189, 52);
     font-weight: bold;
 }
@@ -61,7 +61,7 @@ p{
 }
 
 #icon-container{
-    margin-left: 86px;
+    margin-left: 70px;
     padding: 0px 5px 5px 5px;
     width: 130px;
     text-align: center;
@@ -70,23 +70,31 @@ p{
 .personal-picture{
     padding: 0px;
     border-radius: 100%;
-    width: 200px;
-    margin-left: 55px;
+    height: 250px;
+    width: 250px;
+    margin-left: 15px;
     border: 5px solid var(--cor4);
-    box-shadow: 3px 3px 5px 3px  rgba(0, 0, 0, 0.192);
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.192);
+    float: left;
 }
 
 #text{
+    position: absolute;
     background-color: var(--cor3);
     padding: 15px;
     border-radius: 10px;
     margin-left: 300px;
-    margin-right: 0px;
-    box-shadow: 3px 3px 5px 3px  rgba(0, 0, 0, 0.192);
+    margin-right: 18px;
+    top: 120px;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 0, 0.192);
+}
+
+.image-description{
+    height: 350px;
 }
 
 h4{
-    margin-left: -15px;
+    margin-left: 5px;
     padding: 10px 5px 10px 5px;
     font-size: 20px;
     border-radius: 10px;
@@ -97,6 +105,7 @@ h4{
 ul{
     padding: 15px;
     font-size: 18px;
+    margin-left: 12px;
 }
 
 .list{
@@ -105,13 +114,23 @@ ul{
     border-radius: 5px;
     display: inline-block;
     padding: 15px;
-    margin-top: 20px;
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
+    vertical-align: bottom;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.178);
+}
+
+.all-list{
+    border: px solid green;
+    padding: 1px;
 }
 
 .professional-list{
     font-size: 20px;
     font-weight: 600;
+}
+
+div{
+    border: 0px solid green
 }
 
